@@ -14,13 +14,12 @@ body {
     font-weight: 400;
 }
 
-
 a { 
     text-decoration: none;
     color: $text-primary;
 
     &:hover {
-        border-color: $blue-hover;
+        border-color: $blue-color;
     }
 }
 
@@ -54,7 +53,7 @@ a {
     background: $primary-blue;
 
     &:hover {
-        background: $blue-hover;
+        background: $blue-color;
     }
 }
 
@@ -64,7 +63,7 @@ a {
     border: 1px solid #EFF0F6;
 
     &:hover {
-        background: $white-hover;
+        background: $white-color;
     }
 }
 
