@@ -284,13 +284,13 @@ a {
     .list .list1 li {
       margin-bottom: 24px; }
     .list .list1 li::marker {
-      content: url(/dist/img/List.png); }
+      content: url(../img/List.png); }
   .list .list2 {
     color: #211F54; }
     .list .list2 li {
       margin-bottom: 24px; }
     .list .list2 li::marker {
-      content: url(/dist/img/List.png); }
+      content: url(../img/List.png); }
 
 .desc {
   display: flex;
