@@ -1,0 +1,88 @@
+// Contact
+
+#contact {
+    background-color: #F7F9FC;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    margin: 240px 0;
+    gap: 60px;
+
+    &__h {
+        color: $text-primary;
+        line-height: 58px;
+        margin-bottom: 8px;
+    }
+
+    &__p {
+        color: $text-secondary;
+        margin-bottom: 11px;
+    }
+
+    .action {
+        margin-bottom: 51px;
+    }
+
+    &__border {
+        height: 1px;
+        background: #DCDDEB;
+        opacity: 0.7;
+        margin-bottom: 55px;
+    }
+
+    &__h2 {
+        color: $text-primary;
+    }
+}
+
+form {
+    background: #FFFFFF;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+    border-radius: 16px;
+    padding: 84px 61px;
+
+    display: grid;
+    grid-template-columns: 260px 260px;
+    grid-gap: 32px;
+
+    label {
+        color: $text-primary;
+        margin-bottom: 12px;
+    }
+
+    input {
+        background: #FFFFFF;
+        border: 1px solid #EFF0F6;
+        box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+        border-radius: 16px;
+        height: 72px;
+        padding: 0 10px;
+
+    }
+
+    textarea {
+        background: #FFFFFF;
+        border: 1px solid #EFF0F6;
+        box-shadow: 0px 2px 7px rgba(20, 20, 43, 0.08);
+        border-radius: 22px;
+        height: 144px;
+        width: 551px;
+        resize: none;
+    }
+    
+    .form__box {
+        display: flex;
+        flex-direction: column;
+    }
+    .form__note {
+        grid-column: span 2;
+    }
+
+    button {
+        justify-self: start;
+    }
+    
+}

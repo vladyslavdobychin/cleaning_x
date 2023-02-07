@@ -1,0 +1,346 @@
+// Services
+
+.services {
+
+    &__heading {
+        text-align: center;
+        width: 664px;
+        margin: 0 auto;
+
+        h1 {
+            color: $text-primary;
+            line-height: 58px;
+            margin-bottom: 13px;
+        }
+    }
+    
+    &__p {
+        color: $text-secondary;
+        margin-bottom: 32px;
+    }
+}
+
+.icons {
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    gap: 97px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    &__box {
+        display: flex;
+        gap: 16px;
+    }
+
+    &__img {
+        height: 72px;
+    }
+
+    &__p {
+        color: $text-secondary;
+        text-transform: uppercase;
+    }
+}
+
+.player {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 240px;
+
+    &__button-play {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: none;
+        border-radius: 50%;
+        height: 198px;
+        width: 198px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 24px 65px rgba(20, 20, 43, 0.16);
+        cursor: pointer;
+        
+        &:focus {
+            opacity: 0;
+            z-index: -1;
+        }
+
+    }
+
+    &__img {
+        height: 62px;
+        width: 55px;
+    }
+
+    &__button-pause {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: none;
+        border-radius: 50%;
+        height: 198px;
+        width: 198px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 24px 65px rgba(20, 20, 43, 0.16);
+        cursor: pointer;
+
+        &:focus {
+            opacity: 0;
+            z-index: -2;
+        }
+    }
+}
+
+// Service columns
+
+.services {
+
+    &--heading2 {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 48px;
+
+        button {
+            margin: 29px 24px;
+        }
+
+        h1 {
+            // /////////////////
+            color: $text-primary;
+            line-height: 58px;
+            display:block;
+            width: 475px;
+        }
+    }
+}
+
+.services-columns {
+    display: flex;
+    margin: 0 auto;
+    // правый бок при гэп 28 выносит внешний край за рамки контейнера и пропадает 
+    gap: 28px;
+    margin-bottom: 223px;
+
+    p {
+        color: $text-secondary;
+    }
+
+    .box-1 {
+        width: 388px;
+        text-align: center;
+        justify-content: center;
+        border: 1px solid #EFF0F6;
+        border-radius: 16px;
+        padding: 83px 38px 29px 38px;
+
+        &__img {
+            height: 190px;
+            width: 220px;
+        }
+
+        &__h {
+            margin: 0 auto;
+            margin-top: 24px;
+            margin-bottom: 13px;
+        }
+
+    }
+
+    .box-2 {
+        width: 388px;
+        text-align: center;
+        justify-content: center;
+        border: 1px solid #EFF0F6;
+        border-radius: 16px;
+        padding: 49px 38px 29px 38px;
+
+        &__img {
+            height: 224px;
+            width: 220px;
+        }
+
+        &__h {
+            margin: 0 auto;
+            margin-top: 24px;
+            margin-bottom: 13px;
+        }
+    }
+
+    .box-3 {
+        width: 388px;
+        text-align: center;
+        justify-content: center;
+        border: 1px solid #EFF0F6;
+        border-radius: 16px;
+        padding: 73px 38px 29px 38px;
+
+        &__img {
+            height: 200px;
+            width: 250px;
+        }
+
+        &__h {
+            margin: 0 auto;
+            margin-top: 24px;
+            margin-bottom: 13px;
+        }
+
+    }
+}
+
+// C19
+
+.c19 {
+    background-color: $text-primary;
+    border-radius: 24px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+
+    &__img {
+        margin-right: 72px;
+    }
+
+    &__content {
+        margin-right: 74px;
+    }
+
+    &__p {
+        text-transform: uppercase;
+    }
+
+    &__p2 {
+        margin-bottom: 12px;
+    }
+
+    &__h {
+        margin-bottom: 18px;
+    }
+
+    .action .phone .action__p, .action__h {
+        color: #FFFFFF;
+    }
+
+}
+
+// Inhouse
+
+.inhouse {
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+
+    &__img {
+        margin-right: 80px;
+    }
+
+    &__h {
+        color: $text-primary;
+        line-height: 58px;
+        margin-bottom: 19px;
+    }
+
+    &__p {
+        margin-bottom: 26px;
+        color: $text-secondary;
+    }
+
+}
+
+
+.list {
+    display: flex;
+    gap: 100px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+
+    .list1 {
+        color: $text-primary;
+        
+        li {
+            margin-bottom: 24px;
+
+        }
+
+        li::marker { 
+            content: url(/dist/img/List.png);
+        }
+    }
+    
+    .list2 {
+        color: $text-primary;
+
+        li {
+            margin-bottom: 24px;
+        }
+        
+        li::marker { 
+            content: url(/dist/img/List.png);
+        }
+    }
+}
+
+// Description
+
+.desc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+
+    &__h2 {
+        color: $text-primary;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    &__p {
+        color: $text-secondary;
+        margin-bottom: 15px;
+    }
+
+    &__p-small {
+        color: $text-secondary;
+        margin-bottom: 26px;
+    }
+
+    &__stats {
+        display: flex;
+        margin-bottom: 48px;
+
+        .numbers {
+            font-size: 58px;
+            color: $text-primary;
+            font-weight: 700;
+        }
+
+        .text {
+            color: $text-secondary;
+            font-weight: 700;
+        }
+
+        .years {
+            margin-right: 38px;
+        }
+
+        .clients {
+            margin-right: 58px;
+        }
+
+        span {
+            color: $primary-blue;
+        }
+
+    }
+}
