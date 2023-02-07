@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="./css/mobile.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet" />
@@ -17,20 +24,22 @@
       <!-- Navbar -->
       <header>
         <div class="container">
-          <nav class="navbar">
-            <img src="./img/logo.png" alt="logo" />
-            <ul class="navbar__options">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#pages">Pages</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
+          <div class="header">
+            <nav class="navbar">
+              <img src="./img/logo.png" alt="logo" />
+              <ul class="navbar__options">
+                <li class="navbar__li"><a href="index.html">Home</a></li>
+                <li class="navbar__li"><a href="#about">About</a></li>
+                <li class="navbar__li"><a href="#services">Services</a></li>
+                <li class="navbar__li"><a href="#pages">Pages</a></li>
+                <li class="navbar__li"><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
 
-          <div class="cart">
-            <p>Cart (0)</p>
-            <button class="btn-small btn-blue">Get a free quote</button>
+            <div class="cart">
+              <p>Cart (0)</p>
+              <button class="btn-small btn-blue">Get a free quote</button>
+            </div>
           </div>
         </div>
       </header>
@@ -43,10 +52,9 @@
               Quality cleaning for your home
             </h1>
             <p class="hero-content__p font-1">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
-              quia deserunt quidem tempora itaque non nostrum, provident
-              consequuntur molestias, placeat veritatis asperiores neque
-              pariatur sunt libero minima? Sapiente, suscipit possimus.
+              Condimentum mauris sit cursus amet id non neque pharetra nulla
+              ornare sed facilisis senectus dapibus nibh ultrices eget suscipit
+              aliquet et nulla magna lacus penatibus.
             </p>
           </div>
 
@@ -106,7 +114,6 @@
             <button class="btn-big btn-blue">Get a free quote</button>
             <button class="btn-big btn-white">Expore services</button>
           </div>
-          <div class="border"></div>
         </div>
       </section>
       <!-- Services -->
@@ -145,10 +152,7 @@
             </div>
           </div>
           <div class="player">
-            <img
-              class="player__bg"
-              src="./img/Player-1.png"
-              alt="Player-1" />
+            <img class="player__bg" src="./img/Player-1.png" alt="Player-1" />
             <button class="player__button-pause">
               <img
                 class="player__img"
@@ -162,8 +166,7 @@
                 alt="PLayer-2" />
             </button>
           </div>
-          <div class="border"></div>
-          <!-- Services 2 -->
+          <!-- Service Colum -->
           <div class="services--heading2">
             <h1 class="font-heading">
               Take a look at our professional services
@@ -200,7 +203,7 @@
             </div>
           </div>
 
-          <!-- Services 3 -->
+          <!-- C19 -->
           <div class="c19">
             <img class="c19__img" src="./img/c19.png" alt="c19" />
             <div class="c19__content">
@@ -215,10 +218,7 @@
               </p>
               <div class="action">
                 <button class="btn-big btn-blue">Get a free quote</button>
-                <img
-                  class="action__img"
-                  src="./img/phone.png"
-                  alt="phone" />
+                <img class="action__img" src="./img/phone.png" alt="phone" />
 
                 <div class="phone">
                   <p class="action__p">Call us now</p>
@@ -228,12 +228,9 @@
             </div>
           </div>
 
-          <!-- Services 4 -->
+          <!-- Inhouse -->
           <div class="inhouse">
-            <img
-              src="./img/Inhouse.png"
-              alt="Inhouse"
-              class="inhouse__img" />
+            <img src="./img/Inhouse.png" alt="Inhouse" class="inhouse__img" />
             <div class="inhouse__content">
               <h2 class="inhouse__h font-heading">
                 We cover all areas of your home or office
@@ -261,7 +258,7 @@
             </div>
           </div>
 
-          <!-- Services 5 -->
+          <!-- Description -->
           <div class="desc">
             <div class="desc__content">
               <h2 class="desc__h2 font-heading">What makes us different?</h2>
@@ -292,7 +289,6 @@
             </div>
             <img src="./img/dscp.png" alt="Description" class="desc__img" />
           </div>
-          <div class="border"></div>
         </div>
       </section>
       <!-- Pages -->
@@ -372,10 +368,7 @@
                 pellentesque lacus duis pharetra eutortor.
               </p>
               <div class="action">
-                <img
-                  class="action__img"
-                  src="./img/phone.png"
-                  alt="phone" />
+                <img class="action__img" src="./img/phone.png" alt="phone" />
 
                 <div class="phone">
                   <p class="action__p">Call us now</p>
@@ -392,7 +385,7 @@
             </div>
 
             <form action="submit" class="form">
-              <div class="form__box">               
+              <div class="form__box">
                 <label for="name">Full Name</label>
                 <input type="text" id="name" />
               </div>
@@ -419,14 +412,18 @@
 
               <div class="form__box">
                 <label for="day">Day of service</label>
-                <input name="date" type="text" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'">
+                <input
+                  name="date"
+                  type="text"
+                  onfocus="(this.type='date')"
+                  onblur="if(!this.value)this.type='text'" />
               </div>
 
               <div class="form__note">
                 <label for="note">Add a note</label>
                 <textarea name="note" id="note" cols="30" rows="10"></textarea>
               </div>
-                <button class="btn-big btn-blue">Get a free quote</button>
+              <button class="btn-big btn-blue">Get a free quote</button>
             </form>
           </div>
         </div>
@@ -435,47 +432,55 @@
       <!-- Footer -->
       <footer>
         <div class="container">
-            <div class="top">
-                <div class="top__heading">
-                    <h2 class="top__h font-2">Quality cleaning for your home</h2>
-                    <p class="top__p">Lorem ipsum dolor sit amet cteturdo adipiscing elit, sed do eiusmo.</p>
-                    <div class="top__squares">
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                        <div class="square"></div>
-                    </div>
-                </div>
-                <div class="top__contact">
-                    <p class="top__h2">Contact us</p>
-                    <p class="top__p">1827 Nickel Road, Los Angeles, CA, 90017, United States</p>
-                    <p class="top__p">contact@cleaning.com</p>
-                </div>
-                <div class="top__hours">
-                    <p class="top__h2">Hours</p>
-                    <p>Monday to Friday</p>
-                    <p class="top__p">6:00 AM - 9:00 PM</p>
-                    <p>Saturday & Sunday</p>
-                    <p class="top__p">8:00 AM - 8:00 PM</p>
-                </div>
-                <div class="top__action">
-                    <p class="top__h2">Get a free estimate</p>
-                    <p class="top__number font-2">(414) 567 - 2109</p>
-                    <p class="top__p">Lorem ipsum dolor sit amet ectetur adipiscing elit, sed do eiusmod.</p>
-                    <button class="btn-big btn-blue">Request a free quote</button>
-                </div>
+          <div class="top">
+            <div class="top__heading">
+              <h2 class="top__h font-2">Quality cleaning for your home</h2>
+              <p class="top__p">
+                Lorem ipsum dolor sit amet cteturdo adipiscing elit, sed do
+                eiusmo.
+              </p>
+              <div class="top__squares">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+              </div>
             </div>
-            <div class="bottom">
-                <img src="./img/logo.png" alt="logo" />
-                <div class="bottom__links">
-                    <p class="bottom__p">Copyright © Cleaning X | Designed by</p>
-                    <a href="#" class="bottom__a">BRIX Templates</a>
-                    <p class="bottom__p">- Powered by</p>
-                    <a href="#" class="bottom__a">Webflow</a>
-                    <a href="#" class="bottom__a">Licenses</a>
-                </div>
+            <div class="top__contact">
+              <p class="top__h2">Contact us</p>
+              <p class="top__p">
+                1827 Nickel Road, Los Angeles, CA, 90017, United States
+              </p>
+              <p class="top__p">contact@cleaning.com</p>
             </div>
+            <div class="top__hours">
+              <p class="top__h2">Hours</p>
+              <p>Monday to Friday</p>
+              <p class="top__p">6:00 AM - 9:00 PM</p>
+              <p>Saturday & Sunday</p>
+              <p class="top__p">8:00 AM - 8:00 PM</p>
+            </div>
+            <div class="top__action">
+              <p class="top__h2">Get a free estimate</p>
+              <p class="top__number font-2">(414) 567 - 2109</p>
+              <p class="top__p">
+                Lorem ipsum dolor sit amet ectetur adipiscing elit, sed do
+                eiusmod.
+              </p>
+              <button class="btn-big btn-blue">Request a free quote</button>
+            </div>
+          </div>
+          <div class="bottom">
+            <img src="./img/logo.png" alt="logo" />
+            <div class="bottom__links">
+              <p class="bottom__p">Copyright © Cleaning X | Designed by</p>
+              <a href="#" class="bottom__a">BRIX Templates</a>
+              <p class="bottom__p">- Powered by</p>
+              <a href="#" class="bottom__a">Webflow</a>
+              <a href="#" class="bottom__a">Licenses</a>
+            </div>
+          </div>
         </div>
       </footer>
     </main>
