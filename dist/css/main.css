@@ -394,7 +394,7 @@ a {
       justify-content: flex-end; }
 
 #contact {
-  background-color: #F7F9FC; }
+  background-color: #f7f9fc; }
 
 .contact {
   display: flex;
@@ -412,15 +412,15 @@ a {
     margin-bottom: 51px; }
   .contact__border {
     height: 1px;
-    background: #DCDDEB;
+    background: #dcddeb;
     opacity: 0.7;
     margin-bottom: 55px; }
   .contact__h2 {
     color: #211f54; }
 
 form {
-  background: #FFFFFF;
-  border: 1px solid #EFF0F6;
+  background: #ffffff;
+  border: 1px solid #eff0f6;
   box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
   border-radius: 16px;
   padding: 84px 61px;
@@ -431,15 +431,15 @@ form {
     color: #211f54;
     margin-bottom: 12px; }
   form input {
-    background: #FFFFFF;
-    border: 1px solid #EFF0F6;
+    background: #ffffff;
+    border: 1px solid #eff0f6;
     box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
     border-radius: 16px;
     height: 72px;
     padding: 0 10px; }
   form textarea {
-    background: #FFFFFF;
-    border: 1px solid #EFF0F6;
+    background: #ffffff;
+    border: 1px solid #eff0f6;
     box-shadow: 0px 2px 7px rgba(20, 20, 43, 0.08);
     border-radius: 22px;
     height: 144px;

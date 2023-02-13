@@ -93,7 +93,7 @@ a {
       max-width: 80vw;
       margin: 0;
       padding: 50px;
-      border: 1px solid #EFF0F6;
+      border: 1px solid #eff0f6;
       border-radius: 16px;
       z-index: 1; }
     #hero .action {
@@ -136,7 +136,7 @@ a {
       max-width: 80vw;
       margin: 0;
       padding: 30px;
-      border: 1px solid #EFF0F6;
+      border: 1px solid #eff0f6;
       border-radius: 16px;
       z-index: 1;
       transform: translateY(110px); }
@@ -159,7 +159,7 @@ a {
       background-color: #fff;
       max-width: 80vw;
       padding: 30px;
-      border: 1px solid #EFF0F6;
+      border: 1px solid #eff0f6;
       border-radius: 16px;
       transform: translateY(176px);
       display: flex;
@@ -187,7 +187,7 @@ a {
       background-color: #fff;
       max-width: 80vw;
       padding: 30px;
-      border: 1px solid #EFF0F6;
+      border: 1px solid #eff0f6;
       border-radius: 16px;
       transform: translateY(-220px); }
   .pages__top {
@@ -256,7 +256,7 @@ a {
       height: 600px;
       margin: 0;
       padding: 30px;
-      border: 1px solid #EFF0F6;
+      border: 1px solid #eff0f6;
       border-radius: 16px;
       z-index: 0;
       margin-bottom: 15px; }
@@ -331,7 +331,7 @@ a {
       max-width: 80vw;
       margin: 0;
       padding: 30px;
-      border: 1px solid #EFF0F6;
+      border: 1px solid #eff0f6;
       border-radius: 16px;
       z-index: 0;
       transform: translateY(0px); }
@@ -367,7 +367,7 @@ a {
       background-color: #fff;
       max-width: 80vw;
       padding: 30px;
-      border: 1px solid #EFF0F6;
+      border: 1px solid #eff0f6;
       border-radius: 16px;
       transform: translateY(176px);
       display: flex;
@@ -400,7 +400,7 @@ a {
       background-color: #fff;
       max-width: 80vw;
       padding: 30px;
-      border: 1px solid #EFF0F6;
+      border: 1px solid #eff0f6;
       border-radius: 16px;
       transform: translateY(0px); }
     .desc__stats {
