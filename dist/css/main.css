@@ -269,19 +269,19 @@ a {
     margin-bottom: 26px;
     color: #6e7191; }
 
-.list {
+.list-container {
   margin-bottom: 48px;
   display: flex;
   gap: 56px; }
-  .list .list1 {
+  .list-container .list {
     color: #211f54;
     width: 147px; }
-    .list .list1 li {
+    .list-container .list li {
       position: relative;
       list-style: none;
       padding-left: 35px;
       margin-bottom: 24px; }
-    .list .list1 li::before {
+    .list-container .list li::before {
       content: "";
       position: absolute;
       background-image: url(../img/List.png);
