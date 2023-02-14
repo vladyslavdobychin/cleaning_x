@@ -528,11 +528,14 @@ header {
   max-width: 100vw;
   display: flex;
   justify-content: center;
+  gap: 19px;
   align-items: center;
   margin-bottom: 240px; }
+  #hero > * {
+    flex: 1; }
   #hero .hero-content {
     margin: auto 0;
-    margin-left: 120px; }
+    padding-left: 120px; }
     #hero .hero-content__info {
       margin-bottom: 40px;
       width: 591px; }
@@ -545,7 +548,9 @@ header {
       width: 518px; }
     #hero .hero-content__p {
       color: #6e7191;
-      margin-right: 19px; }
+      min-width: 591px; }
+  #hero .hero__img {
+    height: 100%; }
 
 .action {
   display: flex;

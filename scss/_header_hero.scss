@@ -52,12 +52,17 @@ header {
   max-width: 100vw;
   display: flex;
   justify-content: center;
+  gap: 19px;
   align-items: center;
   margin-bottom: 240px;
 
+  & > * {
+    flex: 1;
+  }
+
   .hero-content {
     margin: auto 0;
-    margin-left: 120px;
+    padding-left: 120px;
 
     &__info {
       margin-bottom: 40px;
@@ -75,8 +80,12 @@ header {
 
     &__p {
       color: $text-secondary;
-      margin-right: 19px;
+      min-width: 591px;
     }
+  }
+
+  .hero__img {
+    height: 100%;
   }
 }
 
