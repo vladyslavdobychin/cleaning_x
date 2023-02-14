@@ -1,10 +1,5 @@
 // About
 
-#about {
-  padding-bottom: 240px;
-  border-bottom: 1px solid #dcddeb;
-}
-
 .about {
   &__heading {
     text-align: center;
@@ -45,4 +40,6 @@
   display: flex;
   justify-content: center;
   gap: 28px;
+  border-bottom: 1px solid #dcddeb;
+  padding-bottom: 240px;
 }

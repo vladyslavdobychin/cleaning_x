@@ -72,10 +72,6 @@ a {
   font-size: 48px;
   font-weight: 700; }
 
-#about {
-  padding-bottom: 240px;
-  border-bottom: 1px solid #dcddeb; }
-
 .about__heading {
   text-align: center;
   margin: 0 auto;
@@ -102,7 +98,9 @@ a {
 .buttons {
   display: flex;
   justify-content: center;
-  gap: 28px; }
+  gap: 28px;
+  border-bottom: 1px solid #dcddeb;
+  padding-bottom: 240px; }
 
 .services__heading {
   text-align: center;
@@ -272,32 +270,18 @@ a {
     color: #6e7191; }
 
 .list {
+  margin-bottom: 48px;
   display: flex;
-  gap: 56px;
-  margin-bottom: 48px; }
+  gap: 56px; }
   .list .list1 {
-    color: #211f54; }
+    color: #211f54;
+    width: 147px; }
     .list .list1 li {
       position: relative;
       list-style: none;
       padding-left: 35px;
       margin-bottom: 24px; }
     .list .list1 li::before {
-      content: "";
-      position: absolute;
-      background-image: url(../img/List.png);
-      width: 26px;
-      height: 26px;
-      left: 0; }
-  .list .list2 {
-    color: #211f54;
-    list-style: none; }
-    .list .list2 li {
-      position: relative;
-      list-style: none;
-      padding-left: 35px;
-      margin-bottom: 24px; }
-    .list .list2 li::before {
       content: "";
       position: absolute;
       background-image: url(../img/List.png);

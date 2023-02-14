@@ -249,33 +249,13 @@
 }
 
 .list {
+  margin-bottom: 48px;
   display: flex;
   gap: 56px;
-  margin-bottom: 48px;
 
   .list1 {
     color: $text-primary;
-
-    li {
-      position: relative;
-      list-style: none;
-      padding-left: 35px;
-      margin-bottom: 24px;
-    }
-
-    li::before {
-      content: "";
-      position: absolute;
-      background-image: url(../img/List.png);
-      width: 26px;
-      height: 26px;
-      left: 0;
-    }
-  }
-
-  .list2 {
-    color: $text-primary;
-    list-style: none;
+    width: 147px;
 
     li {
       position: relative;
