@@ -1,107 +1,95 @@
-
-
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background: $primary-white;
-    line-height: 1.6;
-    box-sizing: border-box;
-    font-size: 18px;
-    font-weight: 400;
-
+  font-family: "Roboto", sans-serif;
+  background: $primary-white;
+  line-height: 1.6;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-a { 
-    text-decoration: none;
-    color: $text-primary;
+a {
+  text-decoration: none;
+  color: $text-primary;
 
-    &:hover {
-        border-color: $blue-color;
-    }
+  &:hover {
+    border-color: $blue-color;
+  }
 }
-
-
-
 
 .container {
-    max-width: 1220px;
-    margin: auto;
-    overflow: hidden;
+  max-width: 1220px;
+  margin: auto;
+  overflow: hidden;
 }
 
-
 .btn-small {
-    padding: 18px 24px;
-    border-radius: 14px;
-    border: none;
-    cursor: pointer;
+  padding: 18px 24px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
 }
 
 .btn-big {
-    padding: 26px 38px;
-    border-radius: 14px;
-    border: none;
-    cursor: pointer;
-    font-weight: 700;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  width: 217px;
+  height: 72px;
 }
 
 .btn-blue {
-    color: $primary-white;
-    background: $primary-blue;
+  color: $primary-white;
+  background: $primary-blue;
 
-    &:hover {
-        background: $blue-color;
-    }
+  &:hover {
+    background: $blue-color;
+  }
 }
 
 .btn-white {
-    color: $text-primary;
-    background-color: #FFFFFF;
-    border: 1px solid #EFF0F6;
+  color: $text-primary;
+  background-color: #ffffff;
+  border: 1px solid #eff0f6;
 
-    &:hover {
-        background: $white-color;
-    }
+  &:hover {
+    background: $white-color;
+  }
 }
 
 .border {
-    height: 1px;
-    background: #DCDDEB;
-    opacity: 0.7;
-    margin-bottom: 240px;
+  height: 1px;
+  background: #dcddeb;
+  opacity: 0.7;
+  margin-bottom: 240px;
 }
 
-
-// Fonts 
+// Fonts
 
 .font-1 {
-    font-size: 21px;
+  font-size: 21px;
 }
 
 .font-2 {
-    font-size: 28px;
-    font-weight: 700;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .font-heading-secondary {
-    font-size: 24px;
-    color: $text-primary;
-    font-weight: 700;
+  font-size: 24px;
+  color: $text-primary;
+  font-weight: 700;
 }
 
 .font-heading {
-    font-size: 48px;
-    font-weight: 700;
+  font-size: 48px;
+  font-weight: 700;
 }
-
-
-
-
