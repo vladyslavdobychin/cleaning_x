@@ -1,5 +1,9 @@
 // Services
 
+.services-container {
+  padding-bottom: 240px;
+  border-bottom: 1px solid #dcddeb;
+}
 .services {
   &__heading {
     text-align: center;
@@ -47,36 +51,8 @@
   position: relative;
   display: flex;
   justify-content: center;
-  padding-bottom: 240px;
-  border-bottom: 1px solid #dcddeb;
 
-  &__button-play {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: none;
-    border-radius: 50%;
-    height: 198px;
-    width: 198px;
-    background-color: #ffffff;
-    box-shadow: 0px 24px 65px rgba(20, 20, 43, 0.16);
-    cursor: pointer;
-
-    &:focus {
-      opacity: 0;
-      z-index: -1;
-    }
-  }
-
-  &__img {
-    height: 62px;
-    width: 55px;
-  }
-
+  &__button-play,
   &__button-pause {
     display: flex;
     justify-content: center;
@@ -92,11 +68,21 @@
     background-color: #ffffff;
     box-shadow: 0px 24px 65px rgba(20, 20, 43, 0.16);
     cursor: pointer;
+  }
 
-    &:focus {
-      opacity: 0;
-      z-index: -2;
-    }
+  .player__button-play:focus {
+    opacity: 0;
+    z-index: -1;
+  }
+
+  .player__button-pause:focus {
+    opacity: 0;
+    z-index: -2;
+  }
+
+  &__img {
+    height: 62px;
+    width: 55px;
   }
 }
 
